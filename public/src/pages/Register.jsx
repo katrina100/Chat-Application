@@ -90,7 +90,7 @@ export default function Register() {
         <form action="" onSubmit={(event) => handleSubmit(event)}>
           <div className="brand">
             <img src={Logo} alt="logo" />
-            <h1>ChatterBox</h1>
+            <h1 style="text-transform: none;">ChatterBox</h1>
           </div>
           <input
             type="text"
